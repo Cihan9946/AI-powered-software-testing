@@ -1,4 +1,5 @@
-#   AI-powered-software-testing
+#
+ AI-powered-software-testing
 yapayzeka destekli yazılım testi
 
 Proje, ilk olarak hangi programlama dillerini destekleyeceğinizi ve hangi güvenlik açıkları ile kod kalitesi sorunlarını hedefleyeceğinizi belirleyerek başlar. Bu gereksinimler netleştirildikten sonra, Python, SonarQube, Semgrep ve CodeBERT gibi gerekli teknolojileri seçip, geliştirme ortamınızı kurarsınız. Ardından, açık kaynak projelerden veya belirli veri setlerinden kod örnekleri toplayarak, bu örneklerin hata, güvenlik açığı ve kod kalitesi sorunlarına yönelik etiketlenmesiyle bir veri seti oluşturursunuz. Hazırlanan bu veriler üzerinde, SonarQube ile kod kalitesi analizleri, Semgrep ile güvenlik taramaları ve CodeBERT ile derin öğrenme destekli analizler gerçekleştirirsiniz. Her bir aracın ürettiği çıktılar, sonrasında geliştirilecek bir raporlama modülünde birleştirilerek, tüm analiz sonuçlarının tek bir raporda veya dashboard üzerinde sunulması sağlanır. Projenin CI/CD pipeline’ına entegre edilmesiyle, her commit veya pull request sonrası bu analizler otomatik olarak tetiklenir; böylece geliştiriciler terminal müdahalesi olmadan sonuçlara erişim sağlayabilir. Son aşamada ise, sistem test edilip performansı değerlendirildikten sonra, dokümantasyon hazırlanarak proje tamamlanır.
